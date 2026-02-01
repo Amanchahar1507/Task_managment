@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+.dashboard-card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.task-actions button {
+  margin-left: 6px;
+}
+
+.logout-btn {
+  background: #e53e3e;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #667eea;
+  color: white;
+  margin-top: 8px;
+}
+
+.divider {
+  height: 1px;
+  background: #ddd;
+  margin: 16px 0;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #667eea;
+  color: white;
+  margin-top: 10px;
+}
+
+.primary-btn:hover {
+  background: #5a67d8;
+}
+
+.logout-btn {
+  background: #e53e3e;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.task span {
+  flex: 1;
+}
+
+.task-actions button {
+  margin-left: 6px;
+  background: #667eea;
+  color: white;
+}
+
+.task-actions button:last-child {
+  background: #e53e3e;
+}
+
+.divider {
+  margin: 16px 0;
+  height: 1px;
+  background: #ddd;
+}
+
+.error {
+  color: #e53e3e;
+  text-align: center;
+}
+
+.success {
+  color: #38a169;
+  text-align: center;
+}
+
+.link-text {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.link-text span {
+  color: #667eea;
+  cursor: pointer;
+}
